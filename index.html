@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FortressMail: Your Identity. Your Vault. Your Fortress.">
+  <title>FortressMail</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="shield-animation" class="shield-start">
+    <h1>Your Identity. Your Vault. Your Fortress.</h1>
+    <button onclick="openVault()">Enter Your Vault</button>
+  </div>
+
+  <div id="vault-area" class="hidden">
+    <h2>Welcome to Your Fortress Vault</h2>
+    <button onclick="composeEmail()">Compose New Email</button>
+    <div id="compose-area" class="hidden"></div>
+  </div>
+
+<script src="shield.js"></script>
+<script src="vault.js"></script>
+<script src="compose.js"></script>
+<script src="paidwall.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
